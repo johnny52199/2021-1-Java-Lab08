@@ -36,7 +36,7 @@ public class IntegratedConverter {
 
         if(!targetMeasure.equals("ALL")) {
 
-            String converterName = "edu.handong.csee.java.hw2.converters." + originalMeasure + "To" + targetMeasure + "Converter";
+            String converterName = "edu.handong.csee.java.converters." + originalMeasure + "To" + targetMeasure + "Converter";
 
             // You will learn about the try-catch block and Exception in L19
             try {
